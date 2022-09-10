@@ -4,7 +4,7 @@ pipeline {
         AWS_ACCESS_KEY_ID = credentials('jenkins-access-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('jenkins-secret-access-key')
         AWS_S3_BUCKET = "gradle112"
-        ARTIFACT_NAME = "spring-boot.jar"
+        ARTIFACT_NAME = "spring-gradle.jar"
         AWS_EB_APP_NAME = " gradle"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "Gradle-env"
