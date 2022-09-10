@@ -7,7 +7,7 @@ pipeline {
         ARTIFACT_NAME = "spring-boot.jar"
         AWS_EB_APP_NAME = " gradle"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
-        AWS_EB_ENVIRONMENT = " Gadle-env"
+        AWS_EB_ENVIRONMENT = "Gradle-env"
     }
     stages {
         stage('Validate') {
